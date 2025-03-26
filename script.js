@@ -16,7 +16,7 @@ function agreeTerms() {
 }
 
 function declineTerms() {
-    document.body.style.backgroundColor = "black";
+    document.body.style.backgroundColor = "red";
     alert("Ok then, bye-bye!");
     window.location.href = "https://google.com"; // Redirect keluar
 }
