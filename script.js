@@ -1,7 +1,7 @@
 function showCommission() {
     document.getElementById('commission-section').classList.remove('hidden');
     document.getElementById('dialog-text').innerText = "Ahh, it's my dear customer!";
-    document.getElementById('oc-image').src = "oc-excited.png";
+    document.getElementById('oc-image').src = "WhatsApp Image 2025-03-26 at 16.20.53.jpeg";
 }
 
 function showTerms() {
@@ -24,13 +24,13 @@ function declineTerms() {
 function showWIP() {
     document.getElementById('wip-section').classList.remove('hidden');
     document.getElementById('dialog-text').innerText = "Time to check my work in progress!";
-    document.getElementById('oc-image').src = "WhatsApp Image 2025-03-26 at 16.06.46.jpeg";
+    document.getElementById('oc-image').src = "WhatsApp Image 2025-03-26 at 16.20.53.jpeg";
 }
 
 function showGallery() {
     document.getElementById('gallery-section').classList.remove('hidden');
     document.getElementById('dialog-text').innerText = "BEHOLDDDD!";
-    document.getElementById('oc-image').src = "WhatsApp Image 2025-03-26 at 16.06.46.jpeg";
+    document.getElementById('oc-image').src = "WhatsApp Image 2025-03-26 at 16.20.53.jpeg";
 
     // Efek "poof" + confetti
     let poof = document.createElement("div");
