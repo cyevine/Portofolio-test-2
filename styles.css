@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f0ff;
+}
+
+#oc-container {
+    position: relative;
+    width: 200px;
+    margin: auto;
+}
+
+#oc-image {
+    width: 100%;
+}
+
+#dialog-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.gallery img {
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#image-viewer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sketch { background: blue; color: white; }
+.lineart { background: purple; color: white; }
+.coloring { background: yellow; color: black; }
+.complete { background: green; color: white; }
+.revisi { background: red; color: white; }
