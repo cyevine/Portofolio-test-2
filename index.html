@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyevine's Portofolio and Comission</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- OC Character & Dialog Box -->
+    <div id="oc-container">
+        <img id="oc-image" src="oc-normal.png" alt="OC">
+        <div id="dialog-box">
+            <p id="dialog-text">WELLO welcome welcome, may I know what brings u here/</p>
+        </div>
+    </div>
+
+    <!-- Navigation Options -->
+    <div id="menu">
+        <button onclick="showCommission()">Commission</button>
+        <button onclick="showWIP()">WIP</button>
+        <button onclick="showGallery()">Gallery</button>
+    </div>
+
+    <!-- Commission Section -->
+    <div id="commission-section" class="hidden">
+        <h2>Commission Price List</h2>
+        <p>Before ordering, please read the Terms and Rules.</p>
+        <button onclick="showTerms()">Read Terms</button>
+    </div>
+
+    <!-- Terms and Rules -->
+    <div id="terms-section" class="hidden">
+        <h2>Terms & Rules</h2>
+        <p>1. No refunds. 2. Credit the artist. 3. No NFT usage 4. The drawing are sent in png or jpg format 5. I don't draw NFSW, hard gore, mecha, realism 6. Minor revision is ok, major revision u have to pay additional fee 7. Payment VIA BCA 8 . I will start when u fullpay 9 . Commercial rules ! I will get 5% from ur profit.</p>
+        <button onclick="agreeTerms()">I Agree</button>
+        <button onclick="declineTerms()">I Don't Agree</button>
+    </div>
+
+    <!-- WIP Section -->
+    <div id="wip-section" class="hidden">
+        <h2>Work In Progress</h2>
+        <div id="wip-list">
+            <p><span class="tag sketch">Sketch</span> - Character A</p>
+            <p><span class="tag lineart">Lineart</span> - Character B</p>
+            <p><span class="tag coloring">Coloring</span> - Character C</p>
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <div id="gallery-section" class="hidden">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="art1.jpg" onclick="viewImage(this)">
+            <img src="art2.jpg" onclick="viewImage(this)">
+            <img src="art3.jpg" onclick="viewImage(this)">
+        </div>
+    </div>
+
+    <!-- Large Image Viewer -->
+    <div id="image-viewer" class="hidden">
+        <img id="large-image">
+        <button onclick="closeImage()">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
